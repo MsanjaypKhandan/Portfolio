@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Keeps header above other content */
+}
+
+:root {
+  --bg-color:#1c1c22;
+  --text-color: #000000;
+  --primary-color: #1f2937;
+}
+
+.theme-blue {
+  --bg-color: #040f11;
+  --text-color:  #77d6e2;
+  --primary-color: #3182ce;
+}
+
+.theme-red {
+  --bg-color: #1c1c22;
+  --text-color:#48bb78;
+  --primary-color: #e53e3e; 
+}
+
+.theme-green {
+  --bg-color: #1c1c22;
+  --text-color: #e67e22;
+  /* #38a169; */
+  --primary-color: #48bb78;
+}
+
+/* Tailwind default colors if needed */
+.theme-light {
+  --bg-color: #1c1c22;
+  --text-color:#e74c3c;
+}
+
+.theme-dark {
+  --bg-color: #1c1c22;
+  --text-color: #fa7296;
+}
+
+  
+@layer base {
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[2px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #E6BBAD;
+  }
+  
+}
