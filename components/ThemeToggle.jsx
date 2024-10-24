@@ -1,6 +1,5 @@
 'use client';
-import { faRotateForward } from '@fortawesome/free-solid-svg-icons';
-import { Rotate3D } from 'lucide-react';
+
 import { useState, useEffect, useRef } from 'react';
 import { IoSettings } from "react-icons/io5";
 const themes = [

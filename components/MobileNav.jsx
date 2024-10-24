@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { GrAppsRounded } from "react-icons/gr";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   {
@@ -49,6 +50,7 @@ export default function MobileNav() {
               Portfolio <span className="text-accent">.</span>
             </h1>
           </Link>
+          <ThemeToggle />
         </div>
 
         <nav className="flex flex-col justify-center items-center gap-8">
