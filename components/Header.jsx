@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
-    <header className="fixed py-8 xl:py-8 bg-primary text-white ">
+    <header className="fixed py-8 xl:py-6 bg-primary text-white ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="hidden xl:flex items-center gap-8">
         <Link href="/">

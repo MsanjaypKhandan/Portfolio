@@ -46,7 +46,7 @@ export default function Home() {
             </p> */}
               
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Link href="https://drive.google.com/file/d/1pqPvPDMtKu1dMSSnqAf5NYALMivASxQb/view?usp=sharing" target="_blank">
+              <Link href="https://drive.google.com/file/d/1G0mCUkOyazgZg-_CFfcsGxFPZ4d0toim/view?usp=sharing" target="_blank">
                 <Button
                   variant="outline"
                   size="lg"
