@@ -6,12 +6,12 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
-    <header className="fixed py-8 xl:py-8 bg-primary-color text-white z-50">
+    <header className="fixed py-8 xl:py-8 bg-primary text-white ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="hidden xl:flex items-center gap-8">
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            SK <span className="text-accent">.</span>
+            Sk <span className="text-accent">.</span>
           </h1>
         </Link>
         <ThemeToggle />

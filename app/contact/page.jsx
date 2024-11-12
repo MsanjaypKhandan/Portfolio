@@ -93,9 +93,9 @@ export default function Contact() {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-4"
+      className="min-h-[80vh] pt-24 flex items-center justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto pt-28">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form
