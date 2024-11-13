@@ -74,9 +74,14 @@ const education = {
       duration: "November 2023 - Feb 2024",
     },
     {
+      platform: "Coursera",
+      course: "React",
+      duration: "March 2023 - April 2023",
+    },
+    {
       platform: "Dartmouth College",
-      course: "C Programming with Linux",
-      duration: "July 2024 - Sep 2023",
+      course: "C Programming",
+      duration: "July 2024 - Sep 2024",
     },
   ],
 };

@@ -5,22 +5,23 @@ const TypeAnimationComponent = () => {
   return (
     <TypeAnimation
       sequence={[
-        'A Front-End Developer', // Types 'A Front-End Developer'
-        2000, // Waits for 2 seconds
-        'A React Developer', // Types 'A React Developer'
-        2000, // Waits for 2 seconds
-        'A Next.js Developer', // Types 'A Next.js Developer'
-        2000, // Waits for 2 seconds
-        'A JavaScript Enthusiast', // Types 'A JavaScript Enthusiast'
-        2000, // Waits for 2 seconds
+        'A Front-End Developer', 
+        2000, 
+        'A Back-End Developer', 
+        2000, 
+        'A React Developer', 
+        2000, 
+        'A Next.js Developer', 
+        2000, 
+        'A JavaScript Enthusiast',
+        2000,
         () => {
-          console.log('Sequence finished'); // Optionally log when the sequence finishes
+          console.log('Sequence finished'); 
         }
       ]}
       wrapper="span"
-      speed={50} // Sets typing speed
-      repeat={Infinity} // Repeats animation indefinitely
-      // style={{ fontSize: '2em', display: 'inline-block' }}
+      speed={50} 
+      repeat={Infinity} 
     />
   );
 };

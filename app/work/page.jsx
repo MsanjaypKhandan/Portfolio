@@ -60,7 +60,7 @@ const projects = [
      
     ],
     image: "/assets/newyearcount.png",
-    live: "",
+    live: "https://resilient-marshmallow-8ade31.netlify.app/",
     github: "https://github.com/MsanjaypKhandan/JavaScript-Projects/tree/main/newyear",
   },
 ];
